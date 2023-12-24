@@ -1,0 +1,37 @@
+#include <stdio.h>
+int main()
+
+{
+    unsigned int a = 60; // 0011 1100 in binary
+    unsigned int b = 13; // 0000 1101 in binary
+    unsigned int result;
+
+    // Bitwise AND
+    result = a & b;
+    printf("a & b = %u\n", result); // Prints 12 (0000 1100)
+
+    // Bitwise OR
+    result = a | b;
+    printf("a | b = %u\n", result); // Prints 61 (0011 1101)
+
+    // Bitwise XOR
+    result = a ^ b;
+    printf("a ^ b = %u\n", result); // Prints 49 (0011 0001)
+
+    // Bitwise NOT
+    result = ~a;
+    printf("~a = %u\n", result); // Prints 4294967235 (in two's complement form)
+
+    // Left shift
+    result = a << 2;
+    printf("a << 2 = %u\n", result); // Prints 240 (1111 0000)
+
+    // Right shift
+    result = a >> 2;
+    printf("a >> 2 = %u\n", result); // Prints 15 (0000 1111)
+     return 0;
+}
+
+ 
+    
+   
