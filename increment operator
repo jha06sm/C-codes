@@ -1,0 +1,17 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+a = 10;      // Initialize 'a' to 10
+a = ++a;     // Increment 'a' by 1 and assign it to 'a'. Now 'a' is 11.
+a = a++;     // Post-increment 'a', so 'a' is used in the expression before incrementing. 'a' remains 11.
+b = a++;     // Assign the current value of 'a' (11) to 'b' and then increment 'a'. Now 'a' is 12, and 'b' is 11.
+c = ++a;     // Increment 'a' by 1 and assign it to 'c'. Now 'a' is 13, and 'c' is 13.
+ 
+ printf("value of a:%d\n",a);
+ printf("value of b:%d\n",b);
+ printf("value of c:%d\n",c);
+
+    return 0;
+}
