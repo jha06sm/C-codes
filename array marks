@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int i,j,x,arr[10];
+    printf("enter 10 integer number\n");
+    for(i=0;i<10;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    for(i=0;i<10;i++)
+    {
+        x=arr[i];
+        for(j=i+1;j<10;j++)
+        {
+            if(x==arr[j])
+            printf("%d number appeared more than once\n",x);
+        }
+    }
+    return 0;
+}
