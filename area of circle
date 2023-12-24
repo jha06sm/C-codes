@@ -1,0 +1,17 @@
+// c program to print area of circle
+#include<stdio.h>
+#define pi 3.14
+int main()
+{
+    int r;  //declaration of variable of int type
+    double area,perimeter;     //decleration of variable of double type
+    printf("enter radius of circle:");
+    scanf("%d",&r);
+    //calculating area of circle
+    area=pi*r*r;   
+    // calculating perimeter of circle   
+    perimeter=2*pi*r;
+    printf("area of circle is:%lf\n",area);
+    printf("perimeter of cicle is:%lf",perimeter);
+    return 0;
+}
