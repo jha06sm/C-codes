@@ -1,0 +1,20 @@
+// c program to print sum and average of 3 numbers
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    float a,b,c;
+    double sum,average;
+    printf("enter first number:");
+    scanf("%f",&a);
+    printf("enter second number:");
+    scanf("%f",&b);
+    printf("enter third number:");
+    scanf("%f",&c);
+    sum=a+b+c;
+    printf("sum of numbers is:%lf\n",sum);
+    average=sum/3;
+    printf("average of numbers is:%lf",average);
+    return 0;
+
+}
