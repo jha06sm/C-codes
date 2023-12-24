@@ -1,0 +1,13 @@
+// c program to print limit of double
+#include<limits.h>
+#include<stdio.h>
+int main()
+{
+printf("minimum double value =%lf\n"
+    "maximum double value=%lf\n"
+    "size of double in byte =%zu\n"
+    "size of double in bits=%zu",
+    __DBL_MIN__,__DBL_MAX__,__SIZEOF_DOUBLE__,
+    __SIZEOF_DOUBLE__*CHAR_BIT);
+    return 0;
+}
