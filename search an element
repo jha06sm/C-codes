@@ -1,0 +1,28 @@
+#include<stdio.h.>
+int main()
+{
+    int target,pos,found,i,a[10];
+    for(i=0;i<10;i++)
+    {
+        printf("enter number:");
+        scanf("%d",&a[i]);
+    }
+    printf("enter the number to search:");
+    scanf("%d",&a[i]);
+   for(i=0;i<10;i++)
+   {
+    if(a[i]==target)
+    {
+        found=1;
+        printf("element found at index %d",i);
+        break;
+    }
+    else{
+    printf("not found");
+    break;
+   } 
+
+   
+   }
+   return 0;
+}
